@@ -1,0 +1,48 @@
+{
+  "info": {
+    "name": "CampusVault API",
+    "_postman_id": "campusvault-collection-001",
+    "description": "Postman collection for testing CampusVault FastAPI backend.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Auth - Register",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": { "raw": "http://localhost:8000/auth/register", "protocol": "http", "host": ["localhost"], "port": "8000", "path": ["auth", "register"] },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Demo User\",\n  \"email\": \"demo@campus.com\",\n  \"password\": \"demo123\",\n  \"department\": \"CSE\",\n  \"semester\": 3\n}"
+        }
+      }
+    },
+    {
+      "name": "Auth - Login",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": { "raw": "http://localhost:8000/auth/login", "protocol": "http", "host": ["localhost"], "port": "8000", "path": ["auth", "login"] },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"demo@campus.com\",\n  \"password\": \"demo123\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Resources - List",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "http://localhost:8000/resources?sort=newest", "protocol": "http", "host": ["localhost"], "port": "8000", "path": ["resources"], "query": [{ "key": "sort", "value": "newest" }] }
+      }
+    },
+    {
+      "name": "Leaderboard - Top",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "http://localhost:8000/leaderboard", "protocol": "http", "host": ["localhost"], "port": "8000", "path": ["leaderboard"] }
+      }
+    }
+  ]
+}
