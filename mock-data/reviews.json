@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "rev1",
+    "resourceId": "r1",
+    "userName": "Diya Sharma",
+    "rating": 5,
+    "comment": "Super clean notes, saved my exam.",
+    "createdAt": "2026-02-11T08:00:00Z"
+  },
+  {
+    "_id": "rev2",
+    "resourceId": "r2",
+    "userName": "Aarav Mehta",
+    "rating": 4,
+    "comment": "Good paper, relevant questions.",
+    "createdAt": "2026-02-13T14:30:00Z"
+  }
+]
