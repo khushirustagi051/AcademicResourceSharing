@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u1",
+    "name": "Aarav Mehta",
+    "department": "CSE",
+    "semester": 3,
+    "points": 140,
+    "uploadsCount": 9
+  },
+  {
+    "id": "u2",
+    "name": "Diya Sharma",
+    "department": "CSE",
+    "semester": 5,
+    "points": 120,
+    "uploadsCount": 7
+  },
+  {
+    "id": "u3",
+    "name": "Kabir Singh",
+    "department": "ECE",
+    "semester": 4,
+    "points": 95,
+    "uploadsCount": 6
+  }
+]
