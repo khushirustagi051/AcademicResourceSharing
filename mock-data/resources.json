@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "r1",
+    "title": "Data Structures Unit 3 Notes",
+    "description": "Detailed notes with examples and solved questions.",
+    "subject": "Data Structures",
+    "semester": 3,
+    "type": "Notes",
+    "year": null,
+    "tags": ["dsa", "unit3"],
+    "uploaderName": "Aarav Mehta",
+    "avgRating": 4.6,
+    "reviewsCount": 12,
+    "downloadsCount": 48,
+    "isVerified": true,
+    "createdAt": "2026-02-10T10:20:00Z"
+  },
+  {
+    "_id": "r2",
+    "title": "DBMS Previous Year Question Paper (2023)",
+    "description": "End-sem question paper with marking scheme.",
+    "subject": "DBMS",
+    "semester": 4,
+    "type": "QP",
+    "year": 2023,
+    "tags": ["dbms", "endsem"],
+    "uploaderName": "Diya Sharma",
+    "avgRating": 4.2,
+    "reviewsCount": 7,
+    "downloadsCount": 60,
+    "isVerified": true,
+    "createdAt": "2026-02-12T09:00:00Z"
+  },
+  {
+    "_id": "r3",
+    "title": "Computer Networks Assignment Solutions",
+    "description": "Solved assignment set 2 (TCP/IP and routing).",
+    "subject": "Computer Networks",
+    "semester": 5,
+    "type": "Solutions",
+    "year": null,
+    "tags": ["cn", "tcp", "routing"],
+    "uploaderName": "Kabir Singh",
+    "avgRating": 3.9,
+    "reviewsCount": 4,
+    "downloadsCount": 21,
+    "isVerified": false,
+    "createdAt": "2026-02-14T12:00:00Z"
+  }
+]
